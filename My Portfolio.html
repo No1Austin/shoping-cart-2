@@ -2,38 +2,38 @@
 <html lang="en">
   <head>
     <title>My Protfolio</title>
-    <Style>
-img{
-    width: 200px;
-    border-radius: 100px;
-}
-  </Style>
+    <link rel="stylesheet" href="style.css.css"/>
   </head>
-  <nav>
-    <a href ="Home">Home</a>
-    <a href ="About">About</a>
-    <a href ="Work">Work</a>
-    <a href ="Resume">Resume</a>
-    <a href ="Contact">Contact</a>
-    <a href ="ContactMe">Contact Me</a>
+
+<header>
+  
+  <nav class="mynav">
+    <list>
+      <ul>
+   <li> <a href ="Home">Home</a></li>
+    <li><a href ="About">About</a></li>
+    <li><a href ="Work">Work</a></li>
+    <li><a href ="Resume">Resume</a></li>
+    <li><a href ="Contact">Contact</a></li>
+    <li><a href ="ContactMe">Contact Me</a></li>
+      </ul>
+  </list>
   </nav>
 
-   git
-</head>
-  
-  <body>
+</header>
+  <div class="container">
     <img src="102871810_1625735214258212_8905283434517898689_n (1).jpg" alt ="Picture of Austin">
+  </div>
 
-  </body>
-<div class ="inline">
-<section>
-    <form>
-        <h3>About Me</h3>
-    <div class="inline"> Austin is a passionate and determined person, who loves to learn and try out new things.
-        my hobbies are reading, playing football and traveling.
+  <div class="About">
+    <h3>About Me</h3>
+    Austin is a passionate and determined person, who loves to learn and try out new things.
+        <div class="inline"> my hobbies are reading, playing football and traveling.</div>
     I am single and dedicate my time to finding inner peace.
+  </div>
+  
 
-<section>
+<section class="work">
     <h3>Work Experience</h3>
     <form>
         <div class="inline">2011- 2014</div>
@@ -50,7 +50,7 @@ img{
 </form>
 </section>
 
-<Section>
+<Section class="education">
     <h3>Education</h3>
     <div class="inline">1996- 2001</div>
     First school Leaving Certificate (FSLC)
@@ -71,31 +71,42 @@ img{
     
 </Section>
 
-<section>
+<section class="contact">
     <h3>Contact</h3>
     <div class="inline">Twitter: @amadiaustin</div>
     <div class="inline">Facebook: @austinMiracleamadi</div>
     <div class="inline">Instagram: @AmadiAfrica</div>
     <div class="inline">Whatsapp: 08140066908</div>
 </section>
-<Section>
+
+<Section class="contactme">
     <h3>Contact Me</h3>
     <form>
-        <label for="Name">Enter your name</label>
-        <div class="inline"><input type="Name" name="Name"></div>
-         <label for="Email">Enter your Email</label>
-        <div class="inline"> <input type="Email" name="Email"></div>
-         <label for="">Leave us a message</label>
+      <label for="Name">Enter your name</label>
+        <span class="inline"><input type="Name" name="Name">
+        <label for="Email">Enter your Email</label>
+        <span class="inline"><input type="Email" name="Email"></span>
+        <div class="inline"></div>
+        <label for="textarea">Leave us a message</label>
         <div class="inline"> <textarea rows="4" cols="50"></textarea>
-    </form>
-</Section>
+          <div class="inline"></div>
+        <button type="submit" class="btn">Send</button>
+</form>
+
+
+
+  </Section>
+
+  <div class="rectangle">
+    <div class="social-link">
+      <img src="Social-Icons-01-Free-SVG.png" alt="social media icon" width="500px" height="500px">
     </div>
-
-    </form>
-</section>
-
+  </div>
   </body>
-  <footer>
 
-  </foot>
+  
+  
+
+
+
 </html>
