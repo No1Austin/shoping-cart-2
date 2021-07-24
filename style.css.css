@@ -3,7 +3,7 @@
   display: block;
   width: 100%;
   height: 78;
-  padding: 10px 0px opx 0px;
+  padding: 10px 0px 0px 0px;
   background-color: teal; opacity: 50%;
   line-height: 90px;
   line width: 500px;
@@ -83,7 +83,7 @@ body {
    }
 
    .contact h3{
-    text-decoration: underline overline;
+     text-decoration: underline overline;
    }
 
 
